@@ -7,17 +7,20 @@
 </head>
 <body>
     <h1>Tela de cadastro</h1>
+
     <form action=".\models\autenticador.php" method="post">
-    <label for="usuário">Usuário:</label>
-    <input type="text" name="usuário" id="usuário">
+        <label for="usuário">Usuário:</label>
+        <input type="text" name="usuário" id="usuário">
+
     <br>
     <br>
-    <form action="index.php" method="post">
-    <label for="senha">Senha:</label>
-    <input type="text" name="senha" id="senha">
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
     <br>
     <br>
-    <input type="submit" value="enviar">
+        <input type="submit" value="enviar">
+    </form>
 
     
 
