@@ -8,7 +8,7 @@
 <body>
     <h1>Tela de cadastro</h1>
 
-    <form action=".\models\autenticador.php" method="post">
+    <form action=".\src\models\autenticador.php" method="post">
         <label for="usuário">Usuário:</label>
         <input type="text" name="usuário" id="usuário">
 
